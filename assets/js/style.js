@@ -1,4 +1,6 @@
 // display current date at top of scheduler
+var rightNow = moment().format("MMMM Do, YYYY - hh:mm:ss a");
+console.log(rightNow);
 
 // display time blocks, rows, with standarded business hours
 
