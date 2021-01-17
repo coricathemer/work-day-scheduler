@@ -1,8 +1,8 @@
 // display current date at top of scheduler
-var rightNow = moment().format("MMMM Do, YYYY - hh:mm:ss a");
-console.log(rightNow);
-
-// display time blocks, rows, with standarded business hours
+var NowMoment = moment();
+var eDisplayMoment = document.getElementById('currentDay');
+eDisplayMoment.innerHTML = NowMoment.format('MM-DD-YYYY');
+console.log(NowMoment);
 
 // color code timeblocks for past, present, and future
 
