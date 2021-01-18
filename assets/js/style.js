@@ -1,11 +1,12 @@
-// display current date at top of scheduler, this is working now and updates properly 
+// display current date at top of scheduler
+// this is working
 var NowMoment = moment();
 var eDisplayMoment = document.getElementById('currentDay');
 eDisplayMoment.innerHTML = NowMoment.format('MM-DD-YYYY');
 console.log(NowMoment);
 
 // color code timeblocks for past, present, and future
-// moment().isAfter(Moment|String|Number|Date|Array, String);
+// this is working
 const rows = document.getElementsByClassName("col-md-10 description");
 let currentHour = parseInt(moment().format('H'));
 
@@ -34,11 +35,15 @@ function setColor(element, color) {
   element.style.backgroundColor = color;
 }
  
-
 // onclick, my event is saved in local storage
+// module 5.1.5
+$(".saveBtn").on("click", function() {
+  var input = $(this)
+  .siblings(".description")
+  .val();
+  var time = $(this)
+  .siblings(".description")
+  .attr("id");
 
-
-// load task from local storage
-
-
-// when I refresh my browser, my event is still there after page loads
+  localStorage.setItem(time, input);
+});
