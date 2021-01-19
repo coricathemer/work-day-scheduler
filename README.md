@@ -32,7 +32,7 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![screenshot]()
+![screenshot](work-day-scheduler\assets\images\Screenshot (4).png)
 
 ## Review
 

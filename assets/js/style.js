@@ -35,6 +35,13 @@ function setColor(element, color) {
   element.style.backgroundColor = color;
 }
  
+// get item from local storage 
+
+// const tasks = JSON.parse(localStorage.getItem(this));
+// for (let i = 0; i < tasks.length; i++) {
+//   console.log(tasks[i]);
+// };
+
 // onclick, my event is saved in local storage
 // module 5.1.5
 $(".saveBtn").on("click", function() {
