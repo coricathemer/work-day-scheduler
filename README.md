@@ -35,6 +35,10 @@ The following animation demonstrates the application functionality:
 ![screenshot]
 see images folder 
 
+## Deployed App 
+
+https://coricathemer.github.io/work-day-scheduler/
+
 
 ## Usage
 
