@@ -37,10 +37,7 @@ function setColor(element, color) {
  
 // get item from local storage 
 
-// const tasks = JSON.parse(localStorage.getItem(this));
-// for (let i = 0; i < tasks.length; i++) {
-//   console.log(tasks[i]);
-// };
+
 
 // onclick, my event is saved in local storage
 // module 5.1.5
@@ -54,3 +51,13 @@ $(".saveBtn").on("click", function() {
 
   localStorage.setItem(time, input);
 });
+
+$("9textarea").val(localStorage.getItem("9textarea"));
+$("10textarea").val(localStorage.getItem("10textarea"));
+$("11textarea").val(localStorage.getItem("11textarea"));
+$("12textarea").val(localStorage.getItem("12textarea"));
+$("13textarea").val(localStorage.getItem("13textarea"));
+$("14textarea").val(localStorage.getItem("14textarea"));
+$("15textarea").val(localStorage.getItem("15textarea"));
+$("16textarea").val(localStorage.getItem("16textarea"));
+$("17textarea").val(localStorage.getItem("17textarea"));
