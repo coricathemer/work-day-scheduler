@@ -36,9 +36,19 @@ function setColor(element, color) {
  
 
 // onclick, my event is saved in local storage
+$(".saveBtn").on("click", function() {
+  var input = $(this)
+  .siblings(".description")
+  .val();
+  var time = $(this)
+  .siblings(".description")
+  .attr("id");
 
+  localStorage.setItem(time, input);
+});
 
 // load task from local storage
-
+$("#9textarea").val(localStorage.getItem("9textarea"));
+$("#10textarea").val(localStorage.getItem("10textarea"));
 
 // when I refresh my browser, my event is still there after page loads
