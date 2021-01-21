@@ -32,15 +32,14 @@ THEN the saved events persist
 
 The following animation demonstrates the application functionality:
 
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
+![screenshot]
+see images folder 
 
-## Review
+## Deployed App 
 
-You are required to submit the following for review:
+https://coricathemer.github.io/work-day-scheduler/
 
-* The URL of the deployed application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+## Usage
 
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+I want to keep track of my daily tasks during business hours. So I add the tasks to the coorisponding hour and it saves to my local storage so I can keep track of my day. 
