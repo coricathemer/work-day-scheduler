@@ -40,7 +40,6 @@ function setColor(element, color) {
 
 
 // onclick, my event is saved in local storage
-// module 5.1.5
 $(".saveBtn").on("click", function() {
   var input = $(this)
   .siblings(".description")
