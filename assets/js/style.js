@@ -51,3 +51,12 @@ $(".saveBtn").on("click", function() {
   localStorage.setItem(time, input);
 });
 
+$("9textarea").val(localStorage.getItem("9textarea"));
+$("10textarea").val(localStorage.getItem("10textarea"));
+$("11textarea").val(localStorage.getItem("11textarea"));
+$("12textarea").val(localStorage.getItem("12textarea"));
+$("13textarea").val(localStorage.getItem("13textarea"));
+$("14textarea").val(localStorage.getItem("14textarea"));
+$("15textarea").val(localStorage.getItem("15textarea"));
+$("16textarea").val(localStorage.getItem("16textarea"));
+$("17textarea").val(localStorage.getItem("17textarea"));
